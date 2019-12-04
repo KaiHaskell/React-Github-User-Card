@@ -21,6 +21,17 @@
   color: #09d3ac;
 }
 
+.container {
+  display: flex;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-right: solid 3px black;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;

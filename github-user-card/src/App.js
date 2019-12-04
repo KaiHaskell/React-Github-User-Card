@@ -38,7 +38,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <div className="user">
           <UserCard user={this.state.user} />
         </div>
