@@ -14,13 +14,13 @@ const CardImg = styled.img`
   width: 300px;
 `;
 
-const UserCard = props => {
+const FollowerCard = ({ followers, img, bio }) => {
   return (
     <CardDiv>
-      <CardImg src={props.user.avatar_url} alt="img" />
-      <h1>{props.user.login}</h1>
+      <CardImg src={img} />
+      <h2>{followers}</h2>
     </CardDiv>
   );
 };
 
-export default UserCard;
+export default FollowerCard;
